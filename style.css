@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    transition: all .5s;
+    background: #000;
+}
+
+.container {
+    width: 100px;
+    background: #e3e3e3;
+    border-radius: 50px;
+    border: 2px solid #00000075;
+}
+
+.container .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 5px solid #209db9;
+    box-shadow: 0 0 0 1px #00000088;
+    cursor: pointer;
+    background: #000;
+    transition: all .5s;
+}
